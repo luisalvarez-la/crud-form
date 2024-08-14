@@ -1,0 +1,67 @@
+/* index.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&display=swap');
+
+/* Reset CSS */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Anek Devanagari', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fcontxto.com%2Fes%2Fnoticias%2Fprimicia-academlo-recauda-inversion-no-revelada-hustle-fund-silicon-valley%2F&psig=AOvVaw2IVFqr8W26bH9IbmLGl81Z&ust=1723695639839000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNi2yebQ84cDFQAAAAAdAAAAABAT');
+  background-size: cover;
+  background-position: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+a:hover {
+  color: #23527c;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+ul, ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+button {
+  border: none;
+  padding: 0.5em 1em;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #337ab7;
+  color: #fff;
+}
